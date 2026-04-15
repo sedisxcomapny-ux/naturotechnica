@@ -6,10 +6,13 @@ from pathlib import Path
 import pandas as pd
 
 SCORES_PATH = Path(__file__).resolve().parents[2] / "data" / "raw" / "irrigation_scores_chicago.csv"
+RISK_PATH = Path(__file__).resolve().parents[2] / "data" / "raw" / "disease_risk_chicago.csv"
 OUTPUT_PATH = Path(__file__).resolve().parents[2] / "data" / "raw" / "recommendations_chicago.json"
 
 FIELD_NAME = "Chicago Pilot Field"
 CONFIDENCE_PCT = 85.0
+
+URGENCY_RANK = {"high": 0, "medium": 1, "low": 2}
 
 
 def urgency_for(score: float) -> str:
@@ -88,6 +91,36 @@ def build_cards(scores: pd.DataFrame, field_name: str = FIELD_NAME) -> list[dict
     return cards
 
 
+def _disease_title(risk_type: str, level: str) -> str:
+    if risk_type == "fungal":
+        return "High fungal disease risk" if level == "high" else "Fungal disease risk building"
+    if risk_type == "heat_stress":
+        return "Extreme heat warning" if level == "high" else "Heat stress warning"
+    return f"{risk_type.title()} risk"
+
+
+def build_disease_cards(risks: pd.DataFrame, field_name: str = FIELD_NAME) -> list[dict]:
+    cards = []
+    for _, row in risks.iterrows():
+        risk_type = str(row["risk_type"])
+        level = str(row["risk_level"])
+        action = str(row["action_text"])
+        cause = str(row["probable_cause"])
+        days = int(row["consecutive_days"])
+        cards.append(
+            {
+                "date": str(row["date"]),
+                "field_name": field_name,
+                "rec_type": risk_type,
+                "urgency": level,
+                "title": _disease_title(risk_type, level),
+                "action_text": f"{cause} ({days}-day run). {action}",
+                "confidence_pct": float(row.get("confidence_pct", 80.0)),
+            }
+        )
+    return cards
+
+
 def format_card(card: dict) -> str:
     border = "─" * 60
     return (
@@ -118,30 +151,47 @@ def main() -> int:
         print(f"[ERROR] Scores CSV missing columns: {missing}", file=sys.stderr)
         return 1
 
-    cards = build_cards(scores)
+    irrigation_cards = build_cards(scores)
+
+    disease_cards: list[dict] = []
+    if RISK_PATH.exists():
+        try:
+            risks = pd.read_csv(RISK_PATH)
+            disease_cards = build_disease_cards(risks)
+        except pd.errors.ParserError as exc:
+            print(f"[WARN] Could not parse disease risk CSV: {exc}", file=sys.stderr)
+    else:
+        print(
+            f"[INFO] Disease risk CSV not found at {RISK_PATH} — "
+            "run disease_risk.py to include disease cards.",
+            file=sys.stderr,
+        )
+
+    all_cards = irrigation_cards + disease_cards
+    all_cards.sort(
+        key=lambda c: (URGENCY_RANK.get(c["urgency"], 99), c["date"], c["rec_type"])
+    )
 
     try:
         OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
         with OUTPUT_PATH.open("w") as f:
-            json.dump(cards, f, indent=2)
+            json.dump(all_cards, f, indent=2)
     except OSError as exc:
         print(f"[ERROR] Could not write JSON: {exc}", file=sys.stderr)
         return 1
 
-    print(f"Generated {len(cards)} recommendation cards.")
+    print(f"Generated {len(all_cards)} recommendation cards "
+          f"({len(irrigation_cards)} irrigation, {len(disease_cards)} disease/heat).")
     print(f"Saved to: {OUTPUT_PATH}\n")
 
-    if not cards:
-        print("No active irrigation recommendations — crop is not under water stress.")
+    if not all_cards:
+        print("No active recommendations.")
         return 0
 
-    active = scores[scores["irrigate_now"].astype(bool)].copy()
-    top_dates = active.sort_values("depletion_score", ascending=False).head(3)["date"].astype(str).tolist()
-    cards_by_date = {c["date"]: c for c in cards}
-
-    print("Top 3 most urgent recommendations:\n")
-    for d in top_dates:
-        print(format_card(cards_by_date[d]))
+    top = all_cards[: min(5, len(all_cards))]
+    print("Top 5 recommendations (by urgency, then date):\n")
+    for card in top:
+        print(format_card(card))
 
     return 0
 

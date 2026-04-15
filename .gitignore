@@ -20,6 +20,7 @@ data/raw/
 data/processed/
 data/naturotechnica.db
 data/fields.json
+data/settings.json
 
 # ML models (binary artifacts — track with MLflow instead)
 models/*.pkl

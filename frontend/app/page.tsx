@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import NdviChart from "./components/NdviChart";
+import AppHeader from "./components/AppHeader";
 
 const FieldMap = dynamic(() => import("./components/FieldMap"), { ssr: false });
 
@@ -64,31 +65,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-green-800 text-white shadow-lg">
-        <div className="mx-auto max-w-7xl px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-lg bg-green-400 flex items-center justify-center text-green-900 font-bold text-lg">
-              N
-            </div>
-            <h1 className="text-xl font-bold tracking-tight">Naturotechnica</h1>
-          </div>
-          <nav className="flex gap-6 text-sm font-medium text-green-200">
-            <a href="#" className="text-white">
-              Dashboard
-            </a>
-            <Link href="/onboarding" className="hover:text-white transition-colors">
-              Fields
-            </Link>
-            <a href="#" className="hover:text-white transition-colors">
-              Weather
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Settings
-            </a>
-          </nav>
-        </div>
-      </header>
+      <AppHeader />
 
       {/* Season banner */}
       <div className="bg-amber-50 border-b border-amber-200">
