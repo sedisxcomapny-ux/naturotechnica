@@ -1,0 +1,50 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data (never commit raw data)
+data/raw/
+data/processed/
+data/naturotechnica.db
+data/fields.json
+
+# ML models (binary artifacts — track with MLflow instead)
+models/*.pkl
+models/*.joblib
+models/*.model
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# VS Code
+.vscode/settings.json
+
+# Logs
+*.log
+logs/
+
+# MLflow
+mlruns/
+
+# Claude Code local workspace
+.claude/
