@@ -1,0 +1,15 @@
+# Minimal runtime deps for Railway — just what the API needs to serve traffic.
+# ML training / heavy geospatial deps stay out of this file.
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-dotenv==1.0.1
+pydantic==2.7.1
+httpx==0.27.0
+python-multipart==0.0.9
+supabase==2.4.0
+aiofiles==23.2.1
+
+# Required by main.py and route handlers at import time
+pandas==2.2.2
+numpy==1.26.4
+requests==2.32.3
