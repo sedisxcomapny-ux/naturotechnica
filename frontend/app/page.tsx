@@ -42,7 +42,7 @@ export default function Home() {
   const [peakScore, setPeakScore] = useState<number | null>(null);
 
   useEffect(() => {
-    fetch("http://localhost:8000/api/recommendations?urgency=high")
+    fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"}/api/recommendations?urgency=high`)
       .then((res) => {
         if (!res.ok) throw new Error(`API returned ${res.status}`);
         return res.json();

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import AppHeader from "../components/AppHeader";
 
-const API = "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 const REPO_URL = "https://github.com/sedisxcomapny-ux/naturotechnica";
 
 interface FarmProfile {
