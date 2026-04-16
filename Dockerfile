@@ -29,4 +29,4 @@ RUN mkdir -p data/raw
 
 EXPOSE 8000
 
-CMD uvicorn backend.api.main:app --host 0.0.0.0 --port $PORT
+CMD ["/bin/sh", "-c", "uvicorn backend.api.main:app --host 0.0.0.0 --port $PORT"]
