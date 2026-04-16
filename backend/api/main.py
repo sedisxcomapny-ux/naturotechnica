@@ -63,7 +63,7 @@ def recommendations(urgency: Optional[str] = Query(None, description="Filter by 
         with RECOMMENDATIONS_PATH.open() as f:
             cards = json.load(f)
     except FileNotFoundError:
-        raise HTTPException(status_code=404, detail="Recommendations file not found. Run recommendation_generator.py.")
+        return envelope(data=[], error="No recommendations available yet")
     except json.JSONDecodeError as exc:
         raise HTTPException(status_code=500, detail=f"Recommendations JSON malformed: {exc}")
 
@@ -81,7 +81,18 @@ def irrigation_summary():
     try:
         scores = pd.read_csv(IRRIGATION_SCORES_PATH)
     except FileNotFoundError:
-        raise HTTPException(status_code=404, detail="Irrigation scores not found. Run irrigation_score.py.")
+        return envelope(
+            data={
+                "total_days": 0,
+                "irrigate_days": 0,
+                "peak_depletion_score": 0,
+                "peak_depletion_date": None,
+                "current_season_status": "no_data",
+                "season_start": None,
+                "season_end": None,
+            },
+            error="No irrigation data available yet",
+        )
     except pd.errors.ParserError as exc:
         raise HTTPException(status_code=500, detail=f"Irrigation CSV malformed: {exc}")
 
@@ -120,7 +131,7 @@ def ndvi():
     try:
         df = pd.read_csv(NDVI_PATH)
     except FileNotFoundError:
-        raise HTTPException(status_code=404, detail="NDVI data not found. Run satellite_ingest.py.")
+        return envelope(data=[], error="No NDVI data available yet")
     except pd.errors.ParserError as exc:
         raise HTTPException(status_code=500, detail=f"NDVI CSV malformed: {exc}")
 
@@ -136,7 +147,7 @@ def disease_risk(
     try:
         df = pd.read_csv(DISEASE_RISK_PATH)
     except FileNotFoundError:
-        raise HTTPException(status_code=404, detail="Disease risk data not found. Run disease_risk.py.")
+        return envelope(data=[], error="No disease risk data available yet")
     except pd.errors.ParserError as exc:
         raise HTTPException(status_code=500, detail=f"Disease risk CSV malformed: {exc}")
 
@@ -170,7 +181,7 @@ def weather_summary():
     try:
         df = pd.read_csv(WEATHER_PATH)
     except FileNotFoundError:
-        raise HTTPException(status_code=404, detail="Weather data not found. Run weather_ingest.py.")
+        return envelope(data={"days": [], "summary": None}, error="No weather data available yet")
     except pd.errors.ParserError as exc:
         raise HTTPException(status_code=500, detail=f"Weather CSV malformed: {exc}")
 

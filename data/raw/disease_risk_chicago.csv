@@ -1,0 +1,32 @@
+date,risk_type,risk_level,consecutive_days,probable_cause,action_text,confidence_pct
+2025-05-13,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-05-15,fungal,high,3,Extended favorable conditions for fungal infection,Scout the canopy for lesions and apply a preventative fungicide within 48 hours.,80.0
+2025-05-15,heat_stress,medium,3,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-05-30,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-06-07,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-06-08,fungal,high,3,Extended favorable conditions for fungal infection,Scout the canopy for lesions and apply a preventative fungicide within 48 hours.,80.0
+2025-06-11,heat_stress,medium,3,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-06-13,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-06-14,fungal,high,3,Extended favorable conditions for fungal infection,Scout the canopy for lesions and apply a preventative fungicide within 48 hours.,80.0
+2025-06-17,heat_stress,medium,3,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-06-19,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-06-20,fungal,high,3,Extended favorable conditions for fungal infection,Scout the canopy for lesions and apply a preventative fungicide within 48 hours.,80.0
+2025-06-21,heat_stress,medium,2,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-06-23,heat_stress,high,4,Multi-day extreme heat on canopy,Irrigate to cool the canopy if possible and avoid any mid-day spraying; watch for tassel blast.,80.0
+2025-07-02,heat_stress,medium,6,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-07-07,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-07-10,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-07-14,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-07-16,heat_stress,medium,3,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-07-18,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-07-19,fungal,high,3,Extended favorable conditions for fungal infection,Scout the canopy for lesions and apply a preventative fungicide within 48 hours.,80.0
+2025-07-23,heat_stress,medium,4,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-07-29,heat_stress,medium,3,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-07-31,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-08-01,fungal,high,3,Extended favorable conditions for fungal infection,Scout the canopy for lesions and apply a preventative fungicide within 48 hours.,80.0
+2025-08-08,heat_stress,medium,5,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-08-14,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-08-15,heat_stress,medium,4,Sustained elevated heat,Monitor soil moisture closely and shift any planned field operations to early morning.,80.0
+2025-08-20,fungal,medium,2,Conditions trending favorable for fungal infection,Increase scouting frequency; prepare fungicide program in case favorability persists.,80.0
+2025-08-21,fungal,high,3,Extended favorable conditions for fungal infection,Scout the canopy for lesions and apply a preventative fungicide within 48 hours.,80.0
+2025-08-29,fungal,high,3,Extended favorable conditions for fungal infection,Scout the canopy for lesions and apply a preventative fungicide within 48 hours.,80.0

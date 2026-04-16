@@ -1,0 +1,801 @@
+[
+  {
+    "date": "2025-05-15",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "high",
+    "title": "High fungal disease risk",
+    "action_text": "Extended favorable conditions for fungal infection (3-day run). Scout the canopy for lesions and apply a preventative fungicide within 48 hours.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-08",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "high",
+    "title": "High fungal disease risk",
+    "action_text": "Extended favorable conditions for fungal infection (3-day run). Scout the canopy for lesions and apply a preventative fungicide within 48 hours.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-14",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "high",
+    "title": "High fungal disease risk",
+    "action_text": "Extended favorable conditions for fungal infection (3-day run). Scout the canopy for lesions and apply a preventative fungicide within 48 hours.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-20",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "high",
+    "title": "High fungal disease risk",
+    "action_text": "Extended favorable conditions for fungal infection (3-day run). Scout the canopy for lesions and apply a preventative fungicide within 48 hours.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-23",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "high",
+    "title": "Extreme heat warning",
+    "action_text": "Multi-day extreme heat on canopy (4-day run). Irrigate to cool the canopy if possible and avoid any mid-day spraying; watch for tassel blast.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-19",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "high",
+    "title": "High fungal disease risk",
+    "action_text": "Extended favorable conditions for fungal infection (3-day run). Scout the canopy for lesions and apply a preventative fungicide within 48 hours.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-23",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "High priority: Irrigate within 24 hours. Water deficit at 80/100 \u2014 corn is under significant stress during mid-season (tasseling/grain fill).",
+    "depletion_score": 80.19,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-24",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "High priority: Irrigate within 24 hours. Water deficit at 85/100 \u2014 corn is under significant stress during mid-season (tasseling/grain fill).",
+    "depletion_score": 85.46,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-25",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "High priority: Irrigate within 24 hours. Water deficit at 85/100 \u2014 corn is under significant stress during mid-season (tasseling/grain fill).",
+    "depletion_score": 85.29,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-26",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "High priority: Irrigate within 24 hours. Water deficit at 85/100 \u2014 corn is under significant stress during mid-season (tasseling/grain fill).",
+    "depletion_score": 84.62,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-27",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "High priority: Irrigate within 24 hours. Water deficit at 90/100 \u2014 corn is under significant stress during mid-season (tasseling/grain fill).",
+    "depletion_score": 89.83,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-28",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 93/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 93.37,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-29",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 99.71,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-30",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "High priority: Irrigate within 24 hours. Water deficit at 83/100 \u2014 corn is under significant stress during mid-season (tasseling/grain fill).",
+    "depletion_score": 82.99,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-31",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "High priority: Irrigate within 24 hours. Water deficit at 80/100 \u2014 corn is under significant stress during mid-season (tasseling/grain fill).",
+    "depletion_score": 80.37,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-01",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "high",
+    "title": "High fungal disease risk",
+    "action_text": "Extended favorable conditions for fungal infection (3-day run). Scout the canopy for lesions and apply a preventative fungicide within 48 hours.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-08-01",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "High priority: Irrigate within 24 hours. Water deficit at 86/100 \u2014 corn is under significant stress during mid-season (tasseling/grain fill).",
+    "depletion_score": 86.07,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-02",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 92/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 91.93,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-03",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 98/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 97.77,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-04",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-05",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-06",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-07",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-08",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-09",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-10",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-11",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-12",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-13",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-14",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-15",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-16",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-17",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-18",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-19",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-20",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-21",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "high",
+    "title": "High fungal disease risk",
+    "action_text": "Extended favorable conditions for fungal infection (3-day run). Scout the canopy for lesions and apply a preventative fungicide within 48 hours.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-08-21",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-22",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-23",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-24",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-25",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-26",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-27",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-28",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-29",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "high",
+    "title": "High fungal disease risk",
+    "action_text": "Extended favorable conditions for fungal infection (3-day run). Scout the canopy for lesions and apply a preventative fungicide within 48 hours.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-08-29",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-30",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-08-31",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-09-01",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-09-02",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-09-03",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-09-04",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-09-05",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-09-06",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-09-07",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "high",
+    "title": "Irrigate within 24 hours",
+    "action_text": "Critical: Immediate irrigation required. Soil moisture depletion at 100/100 \u2014 crop yield loss is imminent without water within 12 hours.",
+    "depletion_score": 100.0,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-05-13",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-05-15",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (3-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-05-30",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-07",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-11",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (3-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-13",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-17",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (3-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-19",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-06-21",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (2-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-02",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (6-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-07",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-10",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-14",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-16",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (3-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-18",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-18",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "medium",
+    "title": "Schedule irrigation in 2-3 days",
+    "action_text": "Monitor closely: Consider irrigating within 48 hours. Depletion at 65/100.",
+    "depletion_score": 64.55,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-19",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "medium",
+    "title": "Schedule irrigation in 2-3 days",
+    "action_text": "Monitor closely: Consider irrigating within 48 hours. Depletion at 65/100.",
+    "depletion_score": 64.77,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-20",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "medium",
+    "title": "Schedule irrigation in 2-3 days",
+    "action_text": "Monitor closely: Consider irrigating within 48 hours. Depletion at 61/100.",
+    "depletion_score": 60.8,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-21",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "medium",
+    "title": "Schedule irrigation in 2-3 days",
+    "action_text": "Monitor closely: Consider irrigating within 48 hours. Depletion at 66/100.",
+    "depletion_score": 66.47,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-22",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "irrigation",
+    "urgency": "medium",
+    "title": "Schedule irrigation in 2-3 days",
+    "action_text": "High priority: Irrigate within 24 hours. Water deficit at 73/100 \u2014 corn is under significant stress during mid-season (tasseling/grain fill).",
+    "depletion_score": 73.01,
+    "confidence_pct": 85.0
+  },
+  {
+    "date": "2025-07-23",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (4-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-29",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (3-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-07-31",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-08-08",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (5-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-08-14",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-08-15",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "heat_stress",
+    "urgency": "medium",
+    "title": "Heat stress warning",
+    "action_text": "Sustained elevated heat (4-day run). Monitor soil moisture closely and shift any planned field operations to early morning.",
+    "confidence_pct": 80.0
+  },
+  {
+    "date": "2025-08-20",
+    "field_name": "Chicago Pilot Field",
+    "rec_type": "fungal",
+    "urgency": "medium",
+    "title": "Fungal disease risk building",
+    "action_text": "Conditions trending favorable for fungal infection (2-day run). Increase scouting frequency; prepare fungicide program in case favorability persists.",
+    "confidence_pct": 80.0
+  }
+]

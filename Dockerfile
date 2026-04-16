@@ -27,6 +27,7 @@ RUN apt-get update && apt-get install -y gcc g++ \
 
 COPY backend/VERSION ./backend/VERSION
 COPY backend/ ./backend/
+COPY data/ ./data/
 
 RUN mkdir -p data/raw
 

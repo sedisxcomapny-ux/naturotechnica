@@ -15,8 +15,10 @@ build/
 .venv/
 venv/
 
-# Data (never commit raw data)
-data/raw/
+# Data
+# data/raw/ is intentionally NOT gitignored — the pilot CSVs ship with the
+# image so Railway serves real data on first boot. User-mutable runtime
+# state stays excluded.
 data/processed/
 data/naturotechnica.db
 data/fields.json
