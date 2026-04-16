@@ -1,0 +1,9 @@
+frontend/
+venv/
+__pycache__/
+*.pyc
+.git/
+node_modules/
+.env
+data/raw/
+mlruns/
