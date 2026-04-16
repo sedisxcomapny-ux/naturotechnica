@@ -5,5 +5,4 @@ __pycache__/
 .git/
 node_modules/
 .env
-data/raw/
 mlruns/
