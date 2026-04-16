@@ -25,8 +25,11 @@ RUN apt-get update && apt-get install -y gcc g++ \
 
 COPY backend/ ./backend/
 
+COPY start.sh .
+RUN chmod +x /app/start.sh
+
 RUN mkdir -p data/raw
 
 EXPOSE 8000
 
-CMD python -c "import os,uvicorn; uvicorn.run('backend.api.main:app', host='0.0.0.0', port=int(os.environ.get('PORT', 8000)))"
+CMD ["/app/start.sh"]
