@@ -30,9 +30,12 @@ export async function middleware(req: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
-  const isLogin = req.nextUrl.pathname.startsWith("/login");
+  const pathname = req.nextUrl.pathname;
+  const isLogin = pathname.startsWith("/login");
+  const isAuthCallback = pathname.startsWith("/auth/callback");
+  const isPublic = isLogin || isAuthCallback;
 
-  if (!user && !isLogin) {
+  if (!user && !isPublic) {
     const redirect = req.nextUrl.clone();
     redirect.pathname = "/login";
     return NextResponse.redirect(redirect);
