@@ -2,6 +2,8 @@ FROM python:3.11.9-slim-bullseye
 
 WORKDIR /app
 
+ENV PYTHONPATH=/app
+
 RUN apt-get update && apt-get install -y gcc g++ \
     && rm -rf /var/lib/apt/lists/* \
     && pip install --upgrade pip \
@@ -24,9 +26,6 @@ RUN apt-get update && apt-get install -y gcc g++ \
         shapely==2.0.4
 
 COPY backend/ ./backend/
-
-COPY start.sh .
-RUN chmod +x /app/start.sh
 
 RUN mkdir -p data/raw
 
