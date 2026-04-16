@@ -51,3 +51,6 @@ No hardware, no satellites yet. Get weather data flowing first.
 - Build the frontend until the backend pipeline works end to end
 - Use bare except clauses
 - Commit secrets or API keys
+
+## Project location
+~/Desktop/Bussiness/Naturotechnica/Code/agri-platform/
