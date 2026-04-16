@@ -1,6 +1,5 @@
 FROM python:3.11.9-slim-bullseye AS base
 
-# Build date: 2026-04-16
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y \
@@ -16,8 +15,7 @@ RUN pip install --no-cache-dir --only-binary=:all: \
     pandas==2.2.2 \
     numpy==1.26.4
 
-RUN pip install --no-cache-dir --only-binary=:all: \
-    -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY backend/ ./backend/
 
