@@ -1,5 +1,6 @@
 FROM python:3.11.9-slim-bullseye AS base
 
+# Build date: 2026-04-16
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y \
