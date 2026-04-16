@@ -230,7 +230,7 @@ export default function WeatherPage() {
                 <YAxis tick={{ fontSize: 11, fill: "#6b7280" }} unit=" mm" />
                 <Tooltip
                   contentStyle={{ fontSize: 12, borderRadius: 8, border: "1px solid #e5e7eb" }}
-                  formatter={(v: number) => [`${v.toFixed(1)} mm`, "Rainfall"]}
+                  formatter={(v) => [`${Number(v).toFixed(1)} mm`, "Rainfall"]}
                 />
                 <Bar dataKey="precipitation_mm" fill="#16a34a" radius={[2, 2, 0, 0]} />
               </BarChart>
