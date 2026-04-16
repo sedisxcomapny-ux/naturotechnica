@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import NdviChart from "./components/NdviChart";
 import AppHeader from "./components/AppHeader";
+import { API_URL } from "@/lib/config";
 
 const FieldMap = dynamic(() => import("./components/FieldMap"), { ssr: false });
 
@@ -42,7 +43,7 @@ export default function Home() {
   const [peakScore, setPeakScore] = useState<number | null>(null);
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"}/api/recommendations?urgency=high`)
+    fetch(`${API_URL}/api/recommendations?urgency=high`)
       .then((res) => {
         if (!res.ok) throw new Error(`API returned ${res.status}`);
         return res.json();

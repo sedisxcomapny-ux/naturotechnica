@@ -3,6 +3,7 @@
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import { API_URL as API_BASE } from "@/lib/config";
 
 const OnboardingMap = dynamic(() => import("../components/OnboardingMap"), { ssr: false });
 
@@ -33,8 +34,6 @@ const EMPTY_FORM: FormState = {
 const CROP_OPTIONS = ["Corn", "Soy", "Wheat", "Rice", "Cotton", "Other"];
 const IRRIGATION_OPTIONS = ["Center Pivot", "Drip", "Sprinkler", "Flood/Furrow", "Rainfed"];
 const SOIL_OPTIONS = ["Clay", "Sandy", "Loam", "Silt", "Mixed"];
-
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export default function OnboardingPage() {
   const [step, setStep] = useState<Step>(1);

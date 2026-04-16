@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import AppHeader from "../components/AppHeader";
+import { API_URL as API } from "@/lib/config";
 import {
   ResponsiveContainer,
   ComposedChart,
@@ -45,8 +46,6 @@ interface RiskEvent {
   probable_cause: string;
   action_text: string;
 }
-
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 function fmtMD(dateStr: string) {
   const [, m, d] = dateStr.split("-");

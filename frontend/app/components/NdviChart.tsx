@@ -10,6 +10,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { API_URL } from "@/lib/config";
 
 interface NdviPoint {
   date: string;
@@ -23,7 +24,7 @@ export default function NdviChart() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"}/api/ndvi`)
+    fetch(`${API_URL}/api/ndvi`)
       .then((res) => {
         if (!res.ok) throw new Error(`API returned ${res.status}`);
         return res.json();
