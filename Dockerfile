@@ -25,6 +25,7 @@ RUN apt-get update && apt-get install -y gcc g++ \
         apscheduler==3.10.4 \
         shapely==2.0.4
 
+COPY backend/VERSION ./backend/VERSION
 COPY backend/ ./backend/
 
 RUN mkdir -p data/raw
